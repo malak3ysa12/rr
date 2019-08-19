@@ -9,4 +9,4 @@ phases:
       - dotnet publish -c release -o ./build_output ./dotnet-core-tutorial.csproj
 artifacts:
   files:
-    - src/HelloWorldWebCore/build_output/*
+    - test/*
