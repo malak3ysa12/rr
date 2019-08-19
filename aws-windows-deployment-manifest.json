@@ -3,7 +3,7 @@
     "deployments": {
         "aspNetCoreWeb": [
         {
-            "name": "test-dotnet-core",
+            "name": "test",
             "parameters": {
                 "appBundle": "site.zip",
                 "iisPath": "/",
