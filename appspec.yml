@@ -1,7 +1,7 @@
 version: 0.0
 os: windows
 files:
-  - source: 
+  - source: \
     destination: C:\ExploringAspNetCore
 hooks:
   ApplicationStop:
@@ -9,4 +9,7 @@ hooks:
       timeout: 30
   ApplicationStart:
     - location: .\InstallApp.ps1
+      timeout: 300
+  ValidateService:
+    - location: .\ValidateInstall.ps1
       timeout: 300
