@@ -1,8 +1,8 @@
 version: 0.2
 phases:
-install:
+  install:
     runtime-versions:
-      dotnet: dotnet: 2.2
+     dotnet: 2.2
   build:
     commands:
       - dotnet test ./src/awspipline/dotnet-core-tutorial.csproj
