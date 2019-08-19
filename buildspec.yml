@@ -5,8 +5,8 @@ phases:
      dotnet: 2.2
   build:
     commands:
-      - dotnet test ./src/awspipline/dotnet-core-tutorial.csproj
-      - dotnet publish -c release -o ./build_output ./src/awspipline/dotnet-core-tutorial.csproj
+      - dotnet test ./dotnet-core-tutorial.csproj
+      - dotnet publish -c release -o ./build_output ./dotnet-core-tutorial.csproj
 artifacts:
   files:
     - src/HelloWorldWebCore/build_output/*
